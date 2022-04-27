@@ -2,7 +2,7 @@
 
 session_start();
 
-$mysqli = new mysqli('localhost','root','Summer1945.','newcrud') or die(mysqli_error($mysqli));
+$mysqli = new mysqli('localhost','root','','newcrud') or die(mysqli_error($mysqli));
 
 $id = 0;
 $update = false;
